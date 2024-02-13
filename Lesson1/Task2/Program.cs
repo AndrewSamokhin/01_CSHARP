@@ -23,3 +23,16 @@ Console.WriteLine(quotient);
 d1 = 6;
 double quotient2 = i1 / d1;
 Console.WriteLine(quotient2);
+
+
+int a = 7;
+int b = 3;
+int c = 8;
+double d = 15;
+
+int product01 = a * b;
+double sum01 = c + d;
+double quotient01 = product01 / sum01;
+Console.WriteLine(quotient01);
+
+
