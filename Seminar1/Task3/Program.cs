@@ -7,14 +7,16 @@
 782 => 9
 918 => 17*/
 
-int number = 789;
+int number = 918;
+Console.WriteLine(number / 100 + number % 10);
+
 
 int firstdigit = number / 100;
 int lastdigit = number % 10;
 Console.WriteLine(firstdigit + lastdigit);
 
 //Console.WriteLine(number / 10);
-Console.WriteLine(number / 100);
+//Console.WriteLine(number / 100);
 //Console.WriteLine(number / 1000);
 
 //Console.WriteLine(number % 10);
@@ -24,5 +26,7 @@ int a = (number / 100);
 int b = (number % 10);
 int sum = a + b;
 Console.WriteLine(sum);
+
+
 
 
